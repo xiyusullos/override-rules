@@ -304,6 +304,16 @@ export function buildProxyGroups({
                 nodeSource,
             });
         }),
+        {
+            name: PROXY_GROUPS.DL,
+            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Server.png`,
+            type: "load-balance",
+            url: "https://www.gstatic.com/generate_204",
+            interval: 5,
+            tolerance: 300,
+            strategy: "round-robin",
+            proxies: defaultProxies,
+        },
     ];
 
     return groups.filter(isNotNull);

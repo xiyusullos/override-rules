@@ -43,6 +43,7 @@ export const PROXY_GROUPS = {
     AD_BLOCK: "广告拦截",
     GLOBAL: "GLOBAL",
     FINAL: "Final",
+    DL: "代理下载",
 } as const;
 
 /**
