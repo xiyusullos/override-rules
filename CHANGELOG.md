@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.4](https://github.com/powerfullz/override-rules/compare/src-v2.5.3...src-v2.5.4) (2026-06-22)
+
+
+### Other
+
+- 代理下载节点不包含选择代理 ([e91b5f8](https://github.com/powerfullz/override-rules/commit/e91b5f8da8f3905c75fbf139c18055743fdbac9a))
 ## [2.5.3](https://github.com/powerfullz/override-rules/compare/src-v2.5.2...src-v2.5.3) (2026-06-22)
 
 
