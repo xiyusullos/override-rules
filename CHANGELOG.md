@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.8](https://github.com/powerfullz/override-rules/compare/src-v2.5.7...src-v2.5.8) (2026-06-23)
+
+
+### Other
+
+- 代理下载使用defaultProxiesDirect ([c497df3](https://github.com/powerfullz/override-rules/commit/c497df369aa902e544b6d08299a44320d5c3cfc4))
+- 代理下载使用defaultProxiesDirect ([ea864bb](https://github.com/powerfullz/override-rules/commit/ea864bb163837838fb452241fff7064d70f315e8))
 ## [2.5.6](https://github.com/powerfullz/override-rules/compare/src-v2.5.5...src-v2.5.6) (2026-06-23)
 
 
