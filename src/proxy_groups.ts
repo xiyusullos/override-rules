@@ -312,7 +312,7 @@ export function buildProxyGroups({
             interval: 5,
             tolerance: 300,
             strategy: "round-robin",
-            proxies: [PROXY_GROUPS.GLOBAL],
+            proxies: defaultProxiesDirect,
         },
     ];
 
