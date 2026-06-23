@@ -86,6 +86,7 @@ export function buildProxyGroups({
             tolerance: 300,
             strategy: "round-robin",
             proxies: defaultProxiesDirect,
+            "include-all": true,
         },
         {
             name: PROXY_GROUPS.SELECT,
