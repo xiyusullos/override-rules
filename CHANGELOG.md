@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.5](https://github.com/powerfullz/override-rules/compare/src-v2.5.4...src-v2.5.5) (2026-06-23)
+
+
+### Other
+
+- 代理下载使用GLOBAL ([676c6b7](https://github.com/powerfullz/override-rules/commit/676c6b77ef21795540bafc2a76c194247d8ba6c2))
 ## [2.5.4](https://github.com/powerfullz/override-rules/compare/src-v2.5.3...src-v2.5.4) (2026-06-22)
 
 
