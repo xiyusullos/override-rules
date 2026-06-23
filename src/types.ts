@@ -42,6 +42,7 @@ export interface BaseProxyGroup {
     icon?: string;
     proxies?: string[];
     "include-all"?: boolean;
+    "include-all-proxies"?: boolean;
     filter?: string;
     "exclude-filter"?: string;
 }
