@@ -5,6 +5,8 @@
 
 ### Other
 
+- 代理下载使用defaultProxiesDirect ([5ae1a1b](https://github.com/powerfullz/override-rules/commit/5ae1a1b8f7aefbd742dc17fc7fbd1b3f22123e04))
+- 代理下载使用defaultProxiesDirect ([517be37](https://github.com/powerfullz/override-rules/commit/517be374214bef3bda78934ee195e3f373a79bc5))
 - 代理下载使用defaultProxiesDirect ([a0985ad](https://github.com/powerfullz/override-rules/commit/a0985adcf016deacc35bc735fc619d3e69515761))
 ## [2.5.5](https://github.com/powerfullz/override-rules/compare/src-v2.5.4...src-v2.5.5) (2026-06-23)
 
