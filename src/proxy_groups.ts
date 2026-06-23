@@ -78,6 +78,16 @@ export function buildProxyGroups({
     const hasUS = countryNames.includes("美国");
     const groups: Array<ProxyGroup | null> = [
         {
+            name: PROXY_GROUPS.DL,
+            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Server.png`,
+            type: "load-balance",
+            url: "https://www.gstatic.com/generate_204",
+            interval: 5,
+            tolerance: 300,
+            strategy: "round-robin",
+            proxies: defaultProxiesDirect,
+        },
+        {
             name: PROXY_GROUPS.SELECT,
             icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Proxy.png`,
             type: "select",
@@ -304,16 +314,6 @@ export function buildProxyGroups({
                 nodeSource,
             });
         }),
-        {
-            name: PROXY_GROUPS.DL,
-            icon: `${CDN_URL}/gh/Koolson/Qure@master/IconSet/Color/Server.png`,
-            type: "load-balance",
-            url: "https://www.gstatic.com/generate_204",
-            interval: 5,
-            tolerance: 300,
-            strategy: "round-robin",
-            proxies: defaultProxiesDirect,
-        },
     ];
 
     return groups.filter(isNotNull);
